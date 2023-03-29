@@ -21,8 +21,6 @@ if (confirm('Quer iniciar uma nova rodada')){
    let valorCarta2 =Number(carta2.valor)
    let pontosJogador =(valorCarta1+valorCarta2)   
    console.log(`"Usuários - cartas: ${carta1.texto} ${carta2.texto} - pontuação ${pontosJogador}"`)
-      
-   console.log('-=-'.repeat(15))
 
    const carta3 = comprarCarta()
    const carta4 = comprarCarta()
@@ -30,7 +28,6 @@ if (confirm('Quer iniciar uma nova rodada')){
    let valorCarta4 =Number(carta4.valor)
    let pontosCpu =(valorCarta3+valorCarta4)   
    console.log(`"Computador - cartas: ${carta3.texto} - ${carta4.texto} - pontuação ${pontosCpu}"`)
-   console.log('-=-'.repeat(15))
 
    if (pontosJogador > pontosCpu && pontosJogador <= 21){
       console.log('Parabens jogador ganhou')
