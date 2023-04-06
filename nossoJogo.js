@@ -1,4 +1,17 @@
 /**
+-Na regra do nosso jogo nao pede opcao de comprar carta, e imprime tudo no console, nao pede para mostrar alerte de pontos da carta.
+
+3. O jogo inicia com cada jogador (Usuário e computador) 
+recebendo 2 cartas. 
+A pontuação de cada jogador é a soma do valor das suas cartas 
+(por exemplo, se você receber as cartas 8♥️ e Q♠️, sua pontuação 
+totalé 8 + 10 = 18).
+
+4. Vence o jogador que:  
+1. tiver a maior pontuação
+2. regra: a pontuação não pode ultrapassar o valor de 21 ou o 
+jogador perde.
+
  * EXEMPLO DE UTILIZAÇÃO DA 'comprarCarta'
  * 
  * 
